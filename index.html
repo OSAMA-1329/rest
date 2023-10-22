@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>HotMeal Restaurant</title>
+  <link rel="stylesheet" href="index.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <div class="container">
+    <header class="header"
+      style="color:white; background-color: black;display: grid;grid-template-columns: 1fr 1fr 1fr;">
+
+      <h1
+        style="color:white; background-color: black;font-family:Verdana, Geneva, Tahoma, sans-serif;font-style: italic;padding: 20px 0px 0px 20px;">
+        HotMeal</h1>
+      <p style="padding:30px 0px 0px 10px">Deliver to <i class="fa fa-map-marker" aria-hidden="true"></i><input
+          type="address">
+      <address map="googlemap">
+        </p>
+
+        <input
+          style="margin:30px 0px 0px 0px;border-radius: .3em; color:orange; border-color: orange; display: flex; justify-content: right ;"
+          type="search" placeholder="Search...">
+        <!-- <button type="submit">Search <i class="fa fa-search" aria-hidden="true"></i></button> -->
+        <button class="button"
+          style="margin:0px 0px 0px 200px;color: white;background-color: orange; border-color: white;border-radius: .5em; padding: 0.1em 1em .1em 1em;">login</button>
+
+    </header>
+    <nav class="navbar" style="background-color: #FFC200;">
+      <h2>Look at your fav meals</h2><br>
+      <p> Within a few clicks,find meals that are accesible near you</p>
+
+
+
+
+      <img style="background-color: #ec7f19;" src="./img/nav.jpg" width="230" height="150" alt="meals">
+      <div class="box" style="width: 700px;
+    height: 120px;  
+    border: 1px solid orange;
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+    background-color: aliceblue;
+    border-radius:0.3em;">
+        <i style="color: #ec7f19;" class="fa fa-motorcycle" aria-hidden="true"> Delivery</i>
+        <i class="fa fa-suitcase" aria-hidden="true">
+          Pickup
+        </i>
+        <div class="address">
+
+          <input
+            style="width: 500px;height: 40px; background-color: rgb(209, 194, 194);border-color: azure; border-radius: 0.4em; margin: 20px 2px 2px 2px;"
+            type="search" placeholder="Enter your Dish">
+
+          <button
+            style=" border-color: #ec7f19;padding:3px 3px 3px 3px;color:white;background-color: #FDA50F; border-radius: 0.5em;">
+            FIND FOOD</button>
+
+        </div>
+
+
+      </div>
+    </nav>
+
+
+
+    <section class="section">
+      <h2 class="section-title">Menu</h2>
+      <div class="card-wrapper">
+        <div class="card">
+          <img class="card-image" src="img/Vada 1.jpg" alt="Dish 1">
+          <h3 class="card-title">Vada</h3>
+          <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a class="button" href="#">30 min Delivery</a>
+        </div>
+        <div class="card">
+          <img class="card-image" src="img/Idli2.jpg" alt="Dish 2">
+          <h3 class="card-title">Idli</h3>
+          <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a class="button" href="#">30 min Delivery</a>
+        </div>
+
+        <div class="card">
+          <img class="card-image" src="img/parotta3.jpg" alt="Dish 3">
+          <h3 class="card-title">Parotta</h3>
+          <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a class="button" href="#">30 min Delivery</a>
+
+        </div>
+        <div class="card">
+          <img class="card-image" src="img/kitch.jpg" alt="Dish 3">
+          <h3 class="card-title">Kitchedi</h3>
+          <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a class="button" href="#">30 min Delivery</a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h3 class="section-title">How does it work</h3>
+      <div style="background-color: white; ;" class="box">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card-image">
+                <img style="width: 100px; height :100px;" class="" src="img/discount.jpg" alt="discount">
+                <span style="font-weight: bold;">Daily Discounts</span>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card-image">
+                <div class="card-image">
+                  <img style="width: 100px; height :100px;" class="" src="img/loc.png" alt="Live track">
+                  <span style="font-weight: bold;">Live Tracing</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <img style="width: 100px; height :100px;" class="#" src="img/delivery.png" alt="discount">
+              <span style="font-weight: bold;">Quick Delivery</span>
+
+            </div>
+          </div>
+
+        </div>
+    </section>
+    <section>
+      <h3 style="margin:20px 20px 40px 40px;">Search by Food</h3>
+      <div class="row">
+        <div class="column"></div>
+        <img class="card-image" style=" width: 100px ; height: 100px; border-radius: 50%; margin:30px 30px 30px 30px"
+          src="img/Dosa.jpg" alt="Dosa">
+        <!-- <h4>Dosa</h4> -->
+
+
+        <img style=" width: 100px ; height: 100px; border-radius: 50%;margin:30px 30px 30px 30px" src="img/aapam.jpg"
+          alt="">
+        <!-- <h4>Aappam</h4> -->
+        <img style=" width: 100px ; height: 100px; border-radius: 50%;margin:30px 30px 30px 30px" src="img/puttu.jpg"
+          alt="">
+        <!-- <h4>puttu</h4> -->
+        <img style=" width: 100px ; height: 100px; border-radius: 50%;margin:30px 30px 30px 30px"
+          src="img/idiyappam.jpg" alt="Idiyappam">
+        <!-- <h3 >Idiyappam</h3> -->
+        <img style=" width: 100px ; height: 100px; border-radius: 50%;margin:30px 30px 30px 30px" src="img/Pongal.jpg"
+          alt="">
+        <!-- <h3 >Pongal</h3> -->
+        <img style=" width: 100px ; height: 100px; border-radius: 50%;margin:30px 30px 30px 30px" src="img/veg rice.jpg"
+          alt="">
+        <!-- <h3 >Veg rice</h3> -->
+      </div>
+
+    </section>
+
+
+  </div>
+  <section style="margin: 10px 50px 40px 120px;">
+
+    <div class="row">
+      <div style="padding: 50px 30px 60px 20px " class="column">
+
+        <p style="font-weight: bold;font-size: 25px; ;"> Best deals <span
+            style="color: #FDA50F;font-weight: bolder;">Crispy Diffen</span></p>
+        <p>Enjoy the largest size of Dosa, Complete <span> <br> perfect slice of Dosa</span></p>
+
+        <button
+          style=" border-color: #FDA50F;font-weight: bold;padding:5px 5px 5px 5px;color:white;background-color: #FDA50F; border-radius: 0.5em;">
+          PROCEED TO ORDER ></button>
+      </div>
+      <div style="margin: 0px 0px 20px 150px;" class="column">
+        <img style="display: block; flex-direction: column; width:700px;height:300px; border-radius: 1em; "
+          src="img/dosa frame.jpg" alt="">
+      </div>
+
+    </div>
+
+  </section>
+  <section>
+
+  </section>
+
+
+  <section class="section">
+    <h2 class="section-title">Popular Items</h2>
+    <div class="card-wrapper">
+      <div class="card">
+        <img style=" width:220px;height:180px;" class="card-image" src="img/Murukku.jpg" alt="Dish 1">
+        <h3 class="card-title">Murukku</h3>
+        <a
+          style=" border-color: #ec7f19;padding:3px 3px 3px 3px;color:white;background-color: orangered; border-radius: 0.5em;">Order
+          Now</a>
+      </div>
+      <div class="card">
+        <img style=" width:220px;height:180px;" class="card-image" src="img/paniyaram.jpg" alt="Dish 2">
+        <h3 class="card-title">paniyaram</h3>
+        <a
+          style=" border-color: #ec7f19;padding:3px 3px 3px 3px;color:white;background-color: orangered; border-radius: 0.5em;">Order
+          Now</a>
+      </div>
+
+      <div class="card">
+        <img style=" width:220px;height:180px;" class="card-image" src="img/Seeval Murukku.jpg" alt="Dish 3">
+        <h3 class="card-title">Seeval Murukku</h3>
+        <a
+          style=" border-color: #ec7f19;padding:3px 3px 3px 3px;color:white;background-color: orangered; border-radius: 0.5em;">Order
+          Now</a>
+
+      </div>
+      <div class="card">
+        <img style=" width:220px;height:180px;" class="card-image" src="img/Mixture.jpg" alt="Dish 3">
+        <h3 class="card-title">Mixture</h3>
+
+        <a
+          style=" border-color: #ec7f19;padding:3px 3px 3px 3px;color:white;background-color: orangered; border-radius: 0.5em;">Order
+          Now</a>
+      </div>
+      <div class="card">
+        <img style=" width:220px;height:180px;" class="card-image" src="img/vegsoup.jpg" alt="Dish 3">
+        <h3 class="card-title">Vegsoup</h3>
+
+        <a
+          style=" border-color: #ec7f19;padding:3px 3px 3px 3px;color:white;background-color: orangered; border-radius: 0.5em;">Order
+          Now</a>
+      </div>
+    </div>
+    <div class="card-wrapper">
+      <div class="card">
+        <img style=" width:220px;height:180px;" class="card-image" src="img/gulab jamun.jpg" alt="Dish 1">
+        <h3 class="card-title">Gulab jamun</h3>
+        <a
+          style=" border-color: #ec7f19;padding:3px 3px 3px 3px;color:white;background-color: orangered; border-radius: 0.5em;">Order
+          Now</a>
+      </div>
+      <div class="card">
+        <img style=" width:220px;height:180px;" class="card-image" src="img/porivellangai urundai.jpg" alt="Dish 2">
+        <h3 class="card-title">porivellangai urundai</h3>
+        <a
+          style=" border-color: #ec7f19;padding:3px 3px 3px 3px;color:white;background-color: orangered; border-radius: 0.5em;">Order
+          Now</a>
+      </div>
+
+      <div class="card">
+        <img style=" width:220px;height:180px;" class="card-image" src="img/Jangri.jpg" alt="Dish 3">
+        <h3 class="card-title">Jangri</h3>
+        <a
+          style=" border-color: #ec7f19;padding:3px 3px 3px 3px;color:white;background-color: orangered; border-radius: 0.5em;">Order
+          Now</a>
+
+      </div>
+      <div class="card">
+        <img style=" width:220px;height:180px;" class="card-image" src="img/laddu.jpg" alt="Dish 3">
+        <h3 class="card-title">laddu</h3>
+
+        <a
+          style=" border-color: #ec7f19;padding:3px 3px 3px 3px;color:white;background-color: orangered; border-radius: 0.5em;">Order
+          Now</a>
+      </div>
+      <div class="card">
+        <img style=" width:220px;height:180px;" class="card-image" src="img/halwa.jpg" alt="Dish 3">
+        <h3 class="card-title">Halwa</h3>
+
+        <a
+          style=" border-color: #ec7f19;padding:3px 3px 3px 3px;color:white;background-color: orangered; border-radius: 0.5em;">Order
+          Now</a>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="box" style="background-color: black; box-sizing: border-box;">
+      <div class=" border-box">
+
+        <div class="row">
+          <div class="column" style="display:grid; grid-template-columns: 1fr 1fr 1fr 1fr;">
+            <ul style="color: white;font-weight: bold; ">Company
+
+
+              <li style="text-decoration: none;">About us</li>
+              <li>Carrers</li>
+              <li>Blog</li>
+
+            </ul>
+            <ul style="color: white;font-weight: bold; ">Contact
+              <li>Help & Support</li>
+              <li>Partner with us</li>
+              <li>Ride with us</li>
+
+            </ul>
+            <ul style="color: white;font-weight: bold; ">Legal
+              <li> Term & conditions</li>
+              <li>Refund & Cancellation</li>
+              <li>Privacy policy</li>
+              <li>Cookie policy</li>
+
+
+            </ul>
+            <div style="color: white;font-weight: bold; ">
+              <p>FOLLOW US</p>
+              <i Style="padding: 5px 5px 5px 5px;" class="fa fa-instagram" aria-hidden="true"></i><i
+                Style="padding: 5px 5px 5px 5px;" class="fa fa-facebook" aria-hidden="true"></i><i
+                Style="padding: 5px 5px 5px 5px;" class="fa fa-twitter" aria-hidden="true"></i>
+              <p>Receive exclusive offers in your mailbox</p>
+              <label for="mailbox"><input type="email" placeholder="Enter your mail"> <button
+                  style="background-color: orange;color:white; border-radius: .3em; border-color: aliceblue;"
+                  ;>Subscribe</button></label>
+
+
+
+            </div>
+
+
+
+
+          </div>
+
+
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+  </section>
+  <section style="font-weight: bold;margin:0px 0px 0px 1150px;">Created By MR.O_</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer class="footer">
+    <p>&copy; 2021 HotMeal Restaurant. All rights reserved.</p>
+  </footer>
+  </div>
+</body>
